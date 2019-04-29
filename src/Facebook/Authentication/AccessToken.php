@@ -50,7 +50,7 @@ class AccessToken
      * @param string $accessToken
      * @param int    $expiresAt
      */
-    public function __construct($accessToken, $expiresAt = 0)
+    public function __construct($accessToken)
     {
         $this->value = $accessToken;
         if ($expiresAt) {
